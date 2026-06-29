@@ -2,7 +2,7 @@ import "./Login.css";
 
 function Login() {
   const handleGoogleLogin = () => {
-    window.location.href = "https://://weather-guard-1.onrender.com/auth/google";
+    window.location.href = "https://weather-guard-1.onrender.com/auth/google";
   };
 
   return (
