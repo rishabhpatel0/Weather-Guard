@@ -11,7 +11,7 @@ function Weather() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://weather-guard-1.onrender.com/weather/send-alerts",
+        "https://://weather-guard-1.onrender.com/weather/send-alerts",
         {
           method: "POST",
           headers: {

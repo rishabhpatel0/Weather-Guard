@@ -17,7 +17,7 @@ function Dashboard() {
     const token = localStorage.getItem("token");
 
     const response = await fetch(
-      "http://https://weather-guard-1.onrender.com/users/stats",
+      "https://://weather-guard-1.onrender.com/users/stats",
       {
         headers: {
           Authorization: `Bearer ${token}`,
