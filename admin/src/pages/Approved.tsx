@@ -11,7 +11,7 @@ function Approved() {
     const token = localStorage.getItem("token");
 
     const res = await fetch(
-      "http://localhost:3000/auth/profile",
+      "http://https://weather-guard-1.onrender.com/auth/profile",
       {
         headers: {
           Authorization: `Bearer ${token}`,

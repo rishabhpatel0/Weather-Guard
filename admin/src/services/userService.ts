@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/users";
+const API = "http://https://weather-guard-1.onrender.com/users";
 
 export async function getUsers() {
   const response = await fetch(API);

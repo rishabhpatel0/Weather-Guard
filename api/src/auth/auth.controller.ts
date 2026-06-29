@@ -35,7 +35,7 @@ import {
       const result = await this.authService.googleLogin(req.user);
   
       return res.redirect(
-        `http://localhost:5173/auth/callback?token=${result.accessToken}&role=${result.user.role}&status=${result.user.status}`,
+        `https://weather-guard-iota.vercel.app/auth/callback?token=${result.accessToken}&role=${result.user.role}&status=${result.user.status}`,
       );
     }
   }

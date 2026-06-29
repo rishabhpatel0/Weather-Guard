@@ -1,4 +1,4 @@
-const API = "http://localhost:3000";
+const API = "http://https://weather-guard-1.onrender.com";
 
 export async function getProfile() {
 
